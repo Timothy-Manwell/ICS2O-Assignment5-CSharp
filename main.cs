@@ -12,7 +12,7 @@ class Program
         int timesThroughLoop;
         var piAnswer = 0.00;
 
-        Console.Write("Enter a positive or negative integer to calculate Pi. The  the integer, the more acurate the result: ");
+        Console.Write("Enter a positive or negative integer to calculate Pi. The higher the integer, the more acurate the result: ");
         timesThroughLoop = Convert.ToInt32(Console.ReadLine());
         while (counter < timesThroughLoop)
         {
