@@ -19,7 +19,7 @@ class Program
             piAnswer = piAnswer + (4 / (1 + 2 * counter)) * Math.Pow(-1, counter);
     counter++;
         }
-         Console.Write(piAnswer);
+        Console.Write(piAnswer);
         Console.Write("\nDone");
     }
 }
